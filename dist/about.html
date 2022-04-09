@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>University of Technology - Nigeria</title>
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,200&display=swap" rel="stylesheet">
+    <!-- Fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- ====================Header Section ==================== -->
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" style="text-decoration: none;"><h1 style="color: white; font-weight: 600; font-size: 20px;">UNITECH</h1></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="registration.html">SIGN IN</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+        <!-- =================== About us Content ================ -->
+
+        <section class="about-us">
+
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the Nigeria's first university of technology</h1>
+                    <p>UniTech, as the Oldest University of Technology in Nigeria, was established in 1980 by Executive fiat with the 
+                        composition and appointment of the first provisional Council by Nigeria's 
+                        First Executive President, Shehu Shagari. It became the first of three such Universities set up by the Federal Government of Nigeria who sought to establish a University of Technology in each geo-political region and particularly in a State which did not have a conventional University.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="./img/about.jpg" alt="">
+                </div>
+            </div>
+    
+        </section>
+
+
+    <!-- ================= Footer ==================== -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>The mission of UniTech is to promote technological advancement by providing
+             conducive environment for research, teaching and learning.</p>
+
+            <div class="icons">
+                <a href="https://twitter.com/Jennybliss01" target="blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100011316306687"  target="blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/jennyamy20/"  target="blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jennifer-oliseyenum-2650b6141"  target="blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <p>Created by <a href="https://www.linkedin.com/in/jennifer-oliseyenum-2650b6141"  target="blank" style="color: #f44336;">Jennifer. O</a></p>
+            </div>
+    </section>
+
+
+
+
+
+    <!--============ Javascript for toggle menu =============-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+</body>
+</html>
